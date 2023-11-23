@@ -30,3 +30,46 @@ sudo docker --version
 sudo docker-compose –version
 
 ```
+
+### Getting start
+* First you need to clone the repository
+```git clone https://github.com/iotaledger/one-click-tangle```
+
+#### Hornet 
+* Afterwards you can install a Hornet Node by
+```
+cd hornet-mainnet
+chmod +x hornet.sh
+./hornet.sh install
+```
+
+#### Private tangle
+* You can install a Private Tangle by
+```
+cd hornet-private-net
+chmod +x private-tangle.sh
+sudo ./private-tangle.sh install
+```
+#### Start/stop the Private Tangle
+```sudo ./private-tangle.sh start```
+```sudo ./private-tangle.sh stop```
+
+#### Check the statement of container
+```
+sudo docker ps -a
+```
+
+### Private Tangle Explorer Setup
+* Make the bash script executable by running
+```
+chmod +x tangle-explorer.sh
+```
+* Installation and start the net Tangle Explorer
+*Warning: It will destory destory previous data*
+```
+./tangle-explorer.sh install [<network-definition.json> or <private-tangle-install-folder>]
+```
+
+* Start/Stop all the containers by running
+```sudo ./tangle-explorer.sh stop```
+```sudo ./tangle-explorer.sh start```
