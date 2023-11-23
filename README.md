@@ -51,8 +51,10 @@ chmod +x private-tangle.sh
 sudo ./private-tangle.sh install
 ```
 #### Start/stop the Private Tangle
-```sudo ./private-tangle.sh start```
-```sudo ./private-tangle.sh stop```
+```
+sudo ./private-tangle.sh start
+sudo ./private-tangle.sh stop
+```
 
 #### Check the statement of container
 ```
@@ -71,5 +73,7 @@ chmod +x tangle-explorer.sh
 ```
 
 * Start/Stop all the containers by running
-```sudo ./tangle-explorer.sh stop```
-```sudo ./tangle-explorer.sh start```
+```
+sudo ./tangle-explorer.sh stop
+sudo ./tangle-explorer.sh start
+```
