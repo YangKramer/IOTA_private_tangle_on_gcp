@@ -7,4 +7,11 @@
 * **Boot Disk:** Ubuntu 22.04 LTS x86/64 (amd64 jammy image built on 2023-10-25)
 * **Identity and API access:** Click "Allow full access to all Cloud APIs"
 * **Firewall:** Click "Allow HTTP traffic" and "Allow HTTPS traffic"
-
+#### Setup Farewall Rules
+Tangle exposes different functionality on different ports:
+- 14265
+- 15600
+- 8081
+- 1881
+- 14626/UDP
+- 4000
