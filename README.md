@@ -15,3 +15,13 @@ Tangle exposes different functionality on different ports:
 - 1881
 - 14626/UDP
 - 4000
+
+### Prerequesties
+  To execute these scripts you need Docker and Docker Compose.Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to describe the 
+  services, networks, and volumes used by your application in a YAML file, and then use that file to create and start all the services with a single command. 
+#### Installation
+```
+sudo apt install curl
+curl -sSL https://get.docker.com | sh
+![image](https://github.com/YangKramer/IOTA_private_tangle_on_gcp/assets/151723322/f7d6308a-6c84-4588-b9af-512a13143552)
+```
