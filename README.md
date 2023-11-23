@@ -23,5 +23,10 @@ Tangle exposes different functionality on different ports:
 ```
 sudo apt install curl
 curl -sSL https://get.docker.com | sh
-![image](https://github.com/YangKramer/IOTA_private_tangle_on_gcp/assets/151723322/f7d6308a-6c84-4588-b9af-512a13143552)
+```
+#### Check the version
+```
+sudo docker --version
+sudo docker-compose –version
+
 ```
